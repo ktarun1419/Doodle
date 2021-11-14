@@ -5,7 +5,7 @@
       <img src="./despricption.png" width="auto" height="auto"></div>
       <div class="div2"> 
       <h2 style="color:rgb(32, 129, 226); float:left; margin-top:20px">Doodles <img src="./verified.png" width="20px" height="20px"></h2>
-      <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:60px">Doodle #8375</h3>
+      <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:80px">Doodle #8375</h3>
       <h4 style="color:rgb(112, 122, 131); float:left;  font-size:15px; margin-top:30px; ">Owned by 
 <span style="color:rgb(32, 129, 226);">NFTsandGames</span> 
  <md-icon> visibility</md-icon>  2.7k views <md-icon>favorite</md-icon>  39 favorites</h4>
@@ -29,47 +29,44 @@
 import "web3";
 export default {
   name: 'Home',
-  created(){
-    const Web3 = require("web3");
-    if (typeof window.ethereum !== "undefined") {
-      console.log("Metamask is installed");
-    }
-    const ethEnabled = async () => {
-      if (window.ethereum) {
-        window.ethereum.request({ method: "eth_requestAccounts" });
-        const chainId = await window.ethereum.request({
-          method: "eth_chainId",
-        });
-        console.log(chainId);
-        window.web3 = new Web3(window.ethereum);
-        return true;
-      }
-      return false;
-    };
-    ethEnabled().then(() => {
-      var x=document.getElementById("connectbutton")
-      x.innerText="MINT NOW"
-      try {
-        const Id = window.ethereum.request({ method: "eth_chainId" });
-        if (Id !== "0x1") {
-          window.ethereum.request({
-            method: "wallet_switchEthereumChain",
-            params: [{ chainId: "0x1" }],
-          });
-        }
-      } catch (error) {
-        console.log("error");
-        if (error.code == 4001) {
-          alert("Please connect to Ethereum Chain");
-        }
-      }
-    });
-  },
+  // created(){
+  //   const Web3 = require("web3");
+  //   if (typeof window.ethereum !== "undefined") {
+  //     console.log("Metamask is installed");
+  //   }
+  //   const ethEnabled = async () => {
+  //     if (window.ethereum) {
+  //       window.ethereum.request({ method: "eth_requestAccounts" });
+  //       const chainId = await window.ethereum.request({
+  //         method: "eth_chainId",
+  //       });
+  //       console.log(chainId);
+  //       window.web3 = new Web3(window.ethereum);
+  //       return true;
+  //     }
+  //     return false;
+  //   };
+  //   ethEnabled().then(() => {
+  //     var x=document.getElementById("connectbutton")
+  //     x.innerText="MINT NOW"
+  //     try {
+  //       const Id = window.ethereum.request({ method: "eth_chainId" });
+  //       if (Id !== "0x1") {
+  //         window.ethereum.request({
+  //           method: "wallet_switchEthereumChain",
+  //           params: [{ chainId: "0x1" }],
+  //         });
+  //       }
+  //     } catch (error) {
+  //       console.log("error");
+  //       if (error.code == 4001) {
+  //         alert("Please connect to Ethereum Chain");
+  //       }
+  //     }
+  //   });
+  // },
   methods:{
-    hex(){
-      const x= web3.utils.toHex(2.3*1e18)
-      console.log(x)
-    },
+    
     sendtransaction() {
        const acc = window.ethereum.request({ method: "eth_requestAccounts" });
       acc.then((result) => {
