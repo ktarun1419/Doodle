@@ -11,7 +11,7 @@
  <md-icon> visibility</md-icon>  2.7k views <md-icon>favorite</md-icon>  39 favorites</h4>
 <h2 style="color:black; float:left; font-size:18px; margin-top:30px;">Sale ends April 29, 2022 at 3:16am IST </h2>
 <h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">2
-  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ($10,706.50)</span>
+  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ($9,110)</span>
 </h1>
 <md-button v-on:click="sendtransaction" class="md-primary" style="width:400px; background-color:rgb(32, 129, 226); margin-top:10px; color: white; margin-right:100px;">Buy Now</md-button>
  <img src="./graph.png" width="auto" height="auto" style="margin-top:10px">
