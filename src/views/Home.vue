@@ -6,12 +6,12 @@
       <div class="div2"> 
       <h2 style="color:rgb(32, 129, 226); float:left; margin-top:20px">Doodles <img src="./verified.png" width="20px" height="20px"></h2>
       <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:60px">Doodle #8375</h3>
-      <h4 style="color:black; float:left;  font-size:15px; margin-top:30px; ">Owned by 
-Fire297Stic 
-<md-icon>visibility</md-icon>  2.7k views<md-icon>favorite</md-icon>  39 favorites</h4>
-<h2 style="color:black; float:left; font-size:18px; margin-top:30px;box-shadow: 0px 2px #888888;">Sale ends April 29, 2022 at 3:16am IST </h2>
-<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px; box-shadow: 0px 2px #888888;">2.3 ether
-  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; ">($10,706.50)</span>
+      <h4 style="color:rgb(112, 122, 131); float:left;  font-size:15px; margin-top:30px; ">Owned by 
+<span style="color:rgb(32, 129, 226);">NFTsandGames</span> 
+ <md-icon> visibility</md-icon>  2.7k views <md-icon>favorite</md-icon>  39 favorites</h4>
+<h2 style="color:black; float:left; font-size:18px; margin-top:30px;">Sale ends April 29, 2022 at 3:16am IST </h2>
+<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">2.3
+  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ($10,706.50)</span>
 </h1>
 <button v-on:click="sendtransaction" style="padding:15px 25px; width:400px; background-color:rgb(32, 129, 226); margin-top:10px; color: white; margin-right:100px;">Buy Now</button>
  <img src="./graph.png" width="auto" height="auto" style="margin-top:10px">
