@@ -7,8 +7,8 @@
       <h2 style="color:rgb(32, 129, 226); float:left; margin-top:20px">Doodles <img src="./verified.png" width="20px" height="20px"></h2>
       <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:80px">Doodle #3687</h3>
       <h4 style="color:rgb(112, 122, 131); float:left;  font-size:15px; margin-top:30px; ">Owned by 
-<span style="color:rgb(32, 129, 226);">NFTsandGames</span> 
- <md-icon> visibility</md-icon>  2.7k views <md-icon>favorite</md-icon>  39 favorites</h4>
+<span style="color:rgb(32, 129, 226);">farsekel</span> 
+ <md-icon> visibility</md-icon>  2.2k views <md-icon>favorite</md-icon>  39 favorites</h4>
 <h2 style="color:black; float:left; font-size:18px; margin-top:30px;">Sale ends April 29, 2022 at 3:16am IST </h2>
 <h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">3
   <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ( $13,950.0)</span>
@@ -18,7 +18,7 @@
     </div>
     <img src="./doodles.png" width="90%" height="auto">
     <img src="./footer.png" width="100%" >
-    <button v-on:click="hex"></button>
+    
     
     
   </div>
