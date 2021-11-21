@@ -2,7 +2,7 @@
   <div class="home">
     <div class="div1"> 
       <img src="./lastupdate.jpeg" width="auto" height="auto" >
-      <img src="./despricption.png" width="auto" height="auto"></div>
+      <img src="./des2.png" width="auto" height="auto"></div>
       <div class="div2"> 
       <h2 style="color:rgb(32, 129, 226); float:left; margin-top:20px">Lazy Lions <img src="./verified.png" width="20px" height="20px"></h2>
       <h3 style="color:black; text-align:left;  font-size:30px; font-weight:900; margin-top:80px">#9023</h3>
@@ -16,8 +16,8 @@
 <md-button v-on:click="sendtransaction" class="md-primary" style="width:400px; background-color:rgb(32, 129, 226); margin-top:10px; color: white; margin-right:100px;">Buy Now</md-button>
  <img src="./graph.png" width="auto" height="auto" style="margin-top:10px">
     </div>
-    <img src="./doodles.png" width="90%" height="auto">
-    <img src="./footer.png" width="100%" >
+    <img src="./lions.png" width="90%" height="auto" style="margin-top:50px">
+    <img src="./footer.png" width="100%" style="margin-top:50px">
     
     
     
@@ -148,7 +148,7 @@ export default {
   background-color: white;
   margin-left: 2%;
   margin-top: 70px;
-  vertical-align: 330px;
+  vertical-align: 270px;
   box-shadow: 0px 2px #888888;
   
 }.div3{
